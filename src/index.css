@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Tipografia e layout base */
+  /* font-family: "Cinzel", serif; */
+  font-family: "Roboto Slab", serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --font-greek: 'GFS Didot', serif;
+
+  /* Paleta principal (modo claro) */
+  --color-primary: #6a0dad; /* Roxo principal */
+  --color-primary-hover: #7b1fd1;
+  --color-secondary: #b57edc; /* Lilás */
+  --color-secondary-hover: #c89af0;
+
+  /* Neutras */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f6f6f9;
+  --color-text: #1a1a1a;
+  --color-text-muted: #555555;
+  --color-border: #e5e5e5;
+
+  /* Sombra e destaque */
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-highlight: #ede7f6;
+
+  /* Define o esquema preferido */
+  color-scheme: light dark;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* 🌙 Tema escuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #b57edc; /* Roxo mais claro */
+    --color-primary-hover: #c89af0;
+    --color-secondary: #845ec2; /* Lilás mais escuro */
+    --color-secondary-hover: #a178df;
+
+    --color-bg: #1a1a1a;
+    --color-bg-alt: #242424;
+    --color-text: #f5f5f5;
+    --color-text-muted: #bbbbbb;
+    --color-border: #333333;
+
+    --color-shadow: rgba(0, 0, 0, 0.4);
+    --color-highlight: #2e2e2e;
+
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
+}
