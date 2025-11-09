@@ -173,3 +173,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Deixa a scrollbar invisível, mas ainda funcional */
+.scrollbar-transparent {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+}
+
+.scrollbar-transparent::-webkit-scrollbar {
+  height: 6px; /* altura da barra */
+}
+
+.scrollbar-transparent::-webkit-scrollbar-track {
+  background: transparent; /* trilha transparente */
+}
+
+.scrollbar-transparent::-webkit-scrollbar-thumb {
+  background-color: transparent; /* deixa o “botão” invisível */
+  border-radius: 10px;
+}

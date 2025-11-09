@@ -51,7 +51,7 @@ function App() {
         </section>
         <section className="categorias text-center py-10 px-4">
           <h2 className="text-3xl text-[var(--color-primary)] mb-8">
-            Categorias de Produtos
+            Eventos da Atlética (em manutenção!)
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <a
@@ -59,91 +59,37 @@ function App() {
               className="categoria bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 text-white"
             >
               <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Geral
+                EM MANUTENÇÃO!!!
               </h3>
               <p className="text-[var(--color-secondary)]">
-                Suporte de celular, capas de chuva, blusas UV...
-              </p>
-            </a>
-
-            <a
-              href="normais.html"
-              className="categoria bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 text-white"
-            >
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Bicicletas
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Pneu, freios, amortecedores...
-              </p>
-            </a>
-
-            <a
-              href="eletricas.html"
-              className="categoria bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 text-white"
-            >
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Bicicletas Elétricas
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Carregadores, cabos, baterias, pneus, aros...
-              </p>
-            </a>
-
-            <a
-              href="entregadores.html"
-              className="categoria bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 text-white"
-            >
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Entregadores
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Aqui temos tudo que você como entregador precisa para rodar com
-                segurança e conforto...
-              </p>
-            </a>
-
-            <a
-              href="motocicleta.html"
-              className="categoria bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 text-white"
-            >
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Motociclista
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Se você tem uma moto essa área é só sua...
+                Aguarde, estou fazendo, ainda não está pronto!! Se clicar, não
+                vai levar a lugar nenhum!!!
               </p>
             </a>
           </div>
         </section>
 
-        {/* Parceiros Section */}
         <section className="categorias text-center py-10 px-4">
           <h2 className="text-3xl text-[var(--color-primary)] mb-8">
-            Ecommerces Parceiros
+            Parcerias (em manutenção!)
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="categoria-parceiro bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 flex flex-col items-center justify-center">
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">Temu</h3>
-            </div>
-
-            <div className="categoria-parceiro bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 flex flex-col items-center justify-center">
               <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Mercado Livre
-              </h3>
-            </div>
-
-            <div className="categoria-parceiro bg-[var(--color-bg-alt)] p-8 rounded-xl transition-transform hover:scale-105 flex flex-col items-center justify-center">
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Shopee
+                100% Eventos
               </h3>
             </div>
           </div>
         </section>
       </div>
-      {/* Footer */}
       <footer className="footer bg-[var(--color-bg-alt)] text-[var(--color-secondary)] text-center py-6 text-sm">
-        <p>© 2025 Estação 2R</p>
+        <p>
+          Feito por{" "}
+          <a href="https://portfolio-bj-mandim.vercel.app/" target="_black">
+            Beatriz Mandim
+          </a>{" "}
+          © 2025 Atlética Athenas
+        </p>
       </footer>
     </div>
   );

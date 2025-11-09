@@ -17,7 +17,7 @@ export const equipeDiretoria = [
   {
     nome: "Emanuelly",
     cargo: "Vice-Diretora de Marketing",
-    imagem: "/public/",
+    imagem: "/public/vice-diretora-marketing-emanuely.jpeg",
   },
   {
     nome: "Rayani",
