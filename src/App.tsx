@@ -1,11 +1,13 @@
 // import { useState } from 'react'
 
+import CardsEquipe from "./components/cards";
+
 function App() {
   // const [count, setCount] = useState(0)
   ///public/logo-atletica-athenas-sem-fundo.png
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-[var(--color-bg)]">
       <nav className="bg-[var(--color-bg-alt)] shadow-md p-4 w-full">
         <div className="container mx-auto flex items-center justify-center gap-6">
           <h2 className="text-2xl md:text-3xl font-bold text-[var(--color-primary)] transition-transform duration-300 hover:scale-110 hover:text-[var(--color-secondary)]">
@@ -23,7 +25,7 @@ function App() {
           </h2>
         </div>
       </nav>
-      <section className="bg-[var(--color-primary)] text-white text-center py-10 px-4 rounded-md w-full">
+      <section className="bg-[var(--color-primary)] text-white text-center py-10 p-4 w-full">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Bem-vindos(as) a Atlética Athenas!
         </h2>
@@ -40,40 +42,12 @@ function App() {
           mais fortes. Juntos, somos Athenas!
         </p>
       </section>
-      <div className="container mx-auto w-full">
-        <section className="text-center py-16 px-4">
+      <div className="flex flex-col text-center px-6 w-full bg-[var(--color-bg)] w-90">
+        <section className="py-16 lg:px-0 bg-[var(--color-bg)] w-full">
           <h2 className="text-3xl text-[var(--color-primary)] mb-8">
-            Conheçam nossa equipe
+            Nossa Diretoria
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card bg-[var(--color-bg-alt)] p-8 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Motoboys
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Produtos pensados para quem está sempre em movimento nas ruas da
-                cidade.
-              </p>
-            </div>
-
-            <div className="card bg-[var(--color-bg-alt)] p-8 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Bikeboys
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Acessórios ideais para entregas rápidas e seguras de bicicleta.
-              </p>
-            </div>
-
-            <div className="card bg-[var(--color-bg-alt)] p-8 rounded-xl shadow-lg transition-shadow hover:shadow-2xl">
-              <h3 className="text-xl text-[var(--color-primary)] mb-2">
-                Ciclistas
-              </h3>
-              <p className="text-[var(--color-secondary)]">
-                Equipamentos para quem pedala por lazer, esporte ou aventura.
-              </p>
-            </div>
-          </div>
+          <CardsEquipe />
         </section>
         <section className="categorias text-center py-10 px-4">
           <h2 className="text-3xl text-[var(--color-primary)] mb-8">
@@ -166,12 +140,11 @@ function App() {
             </div>
           </div>
         </section>
-
-        {/* Footer */}
-        <footer className="footer bg-[var(--color-bg-alt)] text-[var(--color-secondary)] text-center py-6 text-sm">
-          <p>© 2025 Estação 2R</p>
-        </footer>
       </div>
+      {/* Footer */}
+      <footer className="footer bg-[var(--color-bg-alt)] text-[var(--color-secondary)] text-center py-6 text-sm">
+        <p>© 2025 Estação 2R</p>
+      </footer>
     </div>
   );
 }
