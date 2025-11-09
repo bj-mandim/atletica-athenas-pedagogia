@@ -88,13 +88,13 @@ function MenuPage() {
                 </h3>
                 <a
                   href={
-                    "https://www.instagram.com/100eventos?igsh=MWZlbzh2OHgycHM2NQ=="
+                    "https://chat.whatsapp.com/Cm6O5T14YLu6cdW7dWYuVR?mode=wwt"
                   }
                   target="_black"
                 >
                   <Button>
                     <Link />
-                    Instagram
+                    Link do Grupo
                   </Button>
                 </a>
               </div>
@@ -105,7 +105,7 @@ function MenuPage() {
                 </h3>
                 <a
                   href={
-                    "https://www.instagram.com/100eventos?igsh=MWZlbzh2OHgycHM2NQ=="
+                    "https://www.instagram.com/athenas_atletica?igsh=eWF0YjQ0ejNhbjEx&utm_source=qr"
                   }
                   target="_black"
                 >
