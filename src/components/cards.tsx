@@ -5,11 +5,6 @@ import { Card, CardContent } from "@/components/ui/card";
 function CardsEquipe() {
   return (
     <div className="relative w-full max-w-[1200px] mx-auto px-4">
-      {/* Sombras nas laterais */}
-      <div className="pointer-events-none absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-[var(--color-bg)] to-transparent z-10" />
-      <div className="pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-[var(--color-bg)] to-transparent z-10" />
-
-      {/* Scroll container */}
       <div
         className="
           flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory
